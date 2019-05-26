@@ -4,4 +4,7 @@ version = "0.1.0"
 authors = ["Jeremy Miller <jgmiller88@gmail.com>"]
 edition = "2018"
 
+[[bin]]
+name = "day1_part1"
+
 [dependencies]
