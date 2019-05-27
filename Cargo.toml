@@ -10,4 +10,7 @@ name = "day1_part1"
 [[bin]]
 name = "day1_part2"
 
+[[bin]]
+name = "day2_part1"
+
 [dependencies]
