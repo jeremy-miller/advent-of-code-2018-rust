@@ -8,4 +8,4 @@ Rust solutions to [Advent of Code 2018](https://adventofcode.com/2018).
 To build all executables: `cargo build`
 
 ## Run
-To generate an answer for a specific day: `cargo run day1_part1`
+To generate an answer for a specific day: `cargo run --bin day1_part1`
