@@ -12,8 +12,8 @@ fn main() {
             .zip(box_id_2.chars())
             .filter(|(c1, c2)| c1 == c2)
             .unzip();
-        let common_chars: String = common_chars.into_iter().collect();
         if common_chars.len() == box_id_1.len() - 1 {
+            let common_chars: String = common_chars.into_iter().collect();
             println!("Common Letters: {}", common_chars);
             break;
         }
