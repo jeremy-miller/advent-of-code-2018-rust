@@ -13,4 +13,8 @@ name = "day1_part2"
 [[bin]]
 name = "day2_part1"
 
+[[bin]]
+name = "day2_part2"
+
 [dependencies]
+itertools = "0.8.0" # for day2_part2
