@@ -4,17 +4,5 @@ version = "0.1.0"
 authors = ["Jeremy Miller <jgmiller88@gmail.com>"]
 edition = "2018"
 
-[[bin]]
-name = "day1_part1"
-
-[[bin]]
-name = "day1_part2"
-
-[[bin]]
-name = "day2_part1"
-
-[[bin]]
-name = "day2_part2"
-
 [dependencies]
 itertools = "0.8.0" # for day2_part2
