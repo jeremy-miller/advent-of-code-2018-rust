@@ -3,7 +3,6 @@
 use std::fs;
 
 struct Claim {
-    id: String,
     min_x: usize, // usize so array access works
     min_y: usize,
     max_x: usize,
@@ -40,7 +39,6 @@ fn parse_line(line: &str) -> Claim {
     let width: usize = rect_area[0].parse().unwrap();
     let height: usize = rect_area[1].parse().unwrap();
     Claim {
-        id: line_parts[0][1..].to_string(),
         min_x: left + 1,
         min_y: top + 1,
         max_x: width + left,
